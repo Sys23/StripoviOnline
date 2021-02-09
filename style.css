@@ -8,8 +8,7 @@ body {
 
 .container-fluid {
     background-color: #868f98;
-    padding-right: 0px;
-    padding-left: 0px;
+    overflow: hidden;
 }
 
 .pretraga {
@@ -25,42 +24,39 @@ body {
 
 /* Navigacija */
 
-.topnav {
-    background-color: #616f7c;
-    overflow: hidden;
-    display: block;
+nav {
+    padding: 24px;
     text-align: center;
     font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+}
+
+nav a {    
+    text-decoration: none;
+    padding: 20px 0;
+    margin: 0 5px;
+    font-size: 20px;
+}
+
+.efekat:hover {
+    transition: 0.125s ease;
+    color: white;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    padding: 6px 0;
+}
+
+.badge {
     position: relative;
-    padding-left: 2em;
-    padding-right: 3em;
-    margin-top: -40px;
+    top: -20px;
+    left: -25px;
+    border: 1px solid black;
+    border-radius: 50%;
 }
 
-.topnav a {
-    color: white;
-    text-align: center;
-    margin-right: 2em;
-    padding: 5px;
-    font-size: 19px;
-    display: inline-block;
+button {
+    margin: 5px;
 }
-
-.topnav>a:hover {
-    background-color: #74797e;
-    color: white;
-}
-
-.badge { 
-    position: relative; 
-    top: -20px; 
-    left: -25px; 
-    border: 1px solid black; 
-    border-radius: 50%; 
-} 
-button { 
-    margin:5px; 
-} 
 
 /*Slike*/
 
@@ -156,14 +152,14 @@ button {
 
 .card:hover {
     box-shadow: 55px 55px 55px 55px rgba(0, 0, 0, 0.3);
-    transition: 375ms;    
+    transition: 375ms;
 }
 
 .card-img-top {
     height: 15em;
 }
 
-.footer-middle{
+.footer-middle {
     margin-top: 0em;
 }
 
@@ -181,10 +177,20 @@ button {
 
 /*Footer*/
 
+.form {
+    text-align: left;
+    position: relative;
+    width: 100%;
+    padding-right: 3em;
+    padding-left: 3em;
+}
 
-.form{
+.socials, .contactform, .map{
     text-align: center;
-    width: 10em;
+}
+
+.socials .contactform .map>h5{
+    padding-bottom: 2em;
 }
 
 footer {
@@ -192,7 +198,7 @@ footer {
     background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
     background: linear-gradient(60deg, #3A6073, #16222A);
     color: white;
-    margin-top: 100px;
+    padding-top: 1.5em;
 }
 
 footer a {
@@ -239,11 +245,13 @@ ul.social-network {
     display: inline;
     margin-left: 0 !important;
     padding: 0;
+    
 }
 
 ul.social-network li {
     display: inline;
     margin: 0 5px;
+    
 }
 
 /* footer social icons */
@@ -280,9 +288,9 @@ ul.social-network li {
     -webkit-border-radius: 50%;
     border-radius: 50%;
     text-align: center;
-    width: 30px;
-    height: 30px;
-    font-size: 15px;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
 }
 
 .social-circle li i {
@@ -315,3 +323,4 @@ ul.social-network li {
 .social-network a {
     background-color: #F9F9F9;
 }
+
