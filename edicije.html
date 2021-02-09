@@ -23,41 +23,47 @@
 </head>
 
 <body>
-    <div class="topnav">
-        <div id="custom-search-input">
-            <div class="input-group col-md-3 pretraga">
-                <input type="text" class="form-control input-sm" placeholder="Pretraga..." />
-                <span class="input-group-btn">
-                    <button class="btn btn-info btn-md" type="button">Pretraga
-                    </button>
-                </span>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top py-0">
+        <a class="navbar-brand" href="index.html"><img src="slike/stripovionline.png" alt="stripovionline"></a>
+        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="my-nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active ">
+                    <a class="nav-link efekat" href="stripovi.html" style="color: white;">Stripovi<span
+                            class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active ">
+                    <a class="nav-link efekat" href="edicije.html" style="color: white;">Edicije<span
+                            class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active ">
+                    <a class="nav-link efekat" href="onama.html" style="color: white;">O Nama<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="stripovi.html"> <span id="group">
+                            <button type="button" class="btn btn-info">
+                                <i class="fa fa-shopping-basket"></i>
+                            </button>
+                            <span class="badge badge-light"></span>
+                        </span><span class="sr-only"></span></a>
+                </li>
+            </ul>
         </div>
-        <div class="img logo">
-            <a href="index.html"><img src="slike/stripovionline.png" alt="logo"></a>
-        </div>
-        <a href="stripovi.html">Stripovi</a>
-        <a href="edicije.html">Edicije</a>
-        <a href="onama.html">O Nama</a>
-        <span id="group">
-            <button type="button" class="btn btn-info">
-                <i class="fa fa-shopping-basket"></i>
-            </button>
-            <span class="badge badge-light">5</span>
-        </span>
-    </div>
+    </nav>
     <div class="container-fluid">
         <div class="backtotop">
-            <a href="#" class="btn btn-light btn-md back-to-top" role="button"><img src="slike/top.png" class="totop"
-                    alt="napočetak"></a>
+            <a href="#" class="btn btn-light btn-md back-to-top" role="button"><i class="bi bi-arrow-up-circle"></i></a>
         </div>
     </div>
     <footer class="mainfooter" role="contentinfo">
         <div class="footer-middle">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
-                        <h4>Zapratite nas</h4>
+                    <div class="col-md-4 socials">
+                        <h5>Zapratite nas</h5>
                         <ul class="social-network social-circle">
                             <li><a href="www.facebook.com" class="icoFacebook" title="Facebook"><i
                                         class="fa fa-facebook"></i></a>
@@ -70,10 +76,28 @@
                             </li>
                         </ul>
                     </div>
+                    <div class="col-md-4 contactform">
+                        <div class="form">
+                            <h5>Kontaktirajte nas</h5>
+                            <label for="email">E-mail:</label>
+                            <input type="email" name="email" id="email" placeholder="petar.petrovic@gmail.com"
+                                style="height: 2em; width: 15em; margin-bottom: 1em;"><br>
+                            <label for="textarea">Komentar:</label>
+                            <input type="text" name="textarea" id="textarea" placeholder="Komentar..."
+                                style="height: 5em; width: 15em; margin-bottom: 1em; padding-bottom: 3em;"><br>
+                        </div>
+                    </div>
+                    <div class="col-md-4 map">
+                        <h5>Naša lokacija</h5>
+                        <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 13em; text-align: center;">
+                            <iframe src="https://maps.google.com/maps?q=belgrade&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                frameborder="1" style="border:0;" allowfullscreen></iframe>
+                        </div>
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12 copy">
-                        <p class="text-center">&copy; 2020 - StripoviOnline. Sva prava su zadržana.</p>
+                        <p class="text-center">&copy; 2020 - StripoviOnline</p>
                     </div>
                 </div>
             </div>
