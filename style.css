@@ -79,13 +79,10 @@ button {
 }
 
 .comic-img-top {
-    position: relative;
-    display: inline-block;
     background-color: whitesmoke;
     border-radius: 3px;
-    margin-right: 15px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-right: 1em;
+    padding-top: 3em;
 }
 
 .naziv {
