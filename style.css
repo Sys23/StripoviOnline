@@ -11,18 +11,7 @@ body {
     overflow: hidden;
 }
 
-.pretraga {
-    display: inline;
-    left: 20em;
-    top: 4.4em;
-}
-
-.kupi {
-    filter: invert(100%);
-    margin-bottom: 10px;
-}
-
-/* Navigacija */
+/* Navbar */
 
 nav {
     padding: 24px;
@@ -90,13 +79,10 @@ button {
 }
 
 .comic-img-top {
-    position: relative;
-    display: inline-block;
     background-color: whitesmoke;
     border-radius: 3px;
-    margin-right: 15px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-right: 1em;
+    padding-top: 3em;
 }
 
 .naziv {
@@ -117,6 +103,11 @@ button {
 .opis {
     font-family: 'Lato', sans-serif;
     font-weight: 600;
+}
+
+.kupi {
+    filter: invert(100%);
+    margin-bottom: 10px;
 }
 
 /*Index.html*/
@@ -254,7 +245,7 @@ ul.social-network li {
     
 }
 
-/* footer social icons */
+/* Footer social */
 
 .social-network a.icoFacebook:hover {
     background-color: #3B5998;
