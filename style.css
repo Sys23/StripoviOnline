@@ -11,18 +11,7 @@ body {
     overflow: hidden;
 }
 
-.pretraga {
-    display: inline;
-    left: 20em;
-    top: 4.4em;
-}
-
-.kupi {
-    filter: invert(100%);
-    margin-bottom: 10px;
-}
-
-/* Navigacija */
+/* Navbar */
 
 nav {
     padding: 24px;
@@ -117,6 +106,11 @@ button {
 .opis {
     font-family: 'Lato', sans-serif;
     font-weight: 600;
+}
+
+.kupi {
+    filter: invert(100%);
+    margin-bottom: 10px;
 }
 
 /*Index.html*/
@@ -254,7 +248,7 @@ ul.social-network li {
     
 }
 
-/* footer social icons */
+/* Footer social */
 
 .social-network a.icoFacebook:hover {
     background-color: #3B5998;
