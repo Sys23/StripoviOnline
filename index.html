@@ -7,18 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StripoviOnline</title>
     <link rel="stylesheet" href="style.css">
-    <script src="functions.js"></script>
-    <meta charset='utf-8'>
-    <!-- CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
-    </script>
-    <!-- JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
-    </script>
+    <script type="text/javascript" src="main.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--Icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -33,7 +27,7 @@
         <div id="my-nav" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active ">
-                    <a class="nav-link efekat" href="vesti.html" style="color: white;">Vesti<span
+                    <a class="nav-link efekat" href="novosti.html" style="color: white;">Novosti<span
                             class="sr-only"></span></a>
                 </li>
                 <li class="nav-item active ">
@@ -60,7 +54,6 @@
             </ul>
         </div>
     </nav>
-
     <div class="container-fluid pl-0 pr-0" style="text-align: center;">
         <div id="demo" class="carousel slide carousel-fade mb-2" data-ride="carousel">
             <ul class="carousel-indicators">
@@ -89,36 +82,89 @@
             <a class="carousel-control-next" href="#demo" data-slide="next">
             </a>
         </div>
-        <div class="card-deck pr-3 pl-3">
-            <div class="card" style="height: 28em;">
+        <div id="novostiid">
+            <h1>Novosti</h1>
+        </div>
+        <div class="card-deck pr-3 pl-3 py-4">
+            <div class="card" style="height: 25em;">
                 <img class="card-img-top" src="slike/radno-vreme.jpg" alt="cardimg">
                 <div class="card-body">
                     <h5 class="card-title">Lorem Ipsum</h5>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    <a href="#" class="btn btn-primary">Pročitaj više</a>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit maiores quos porro dicta culpa eius
+                        iusto... <a href="vesti.html">Detaljnije</a></p>
                 </div>
             </div>
-            <div class="card" style="height: 28em;">
+            <div class="card" style="height: 25em;">
                 <img class="card-img-top" src="slike/img1.jpg" alt="cardimg">
                 <div class="card-body">
                     <h5 class="card-title">Lorem Ipsum</h5>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    <a href="#" class="btn btn-primary">Pročitaj više</a>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit maiores quos porro dicta culpa eius
+                        iusto... <a href="vesti.html">Detaljnije</a></p>
                 </div>
             </div>
-            <div class="card" style="height: 28em;">
+            <div class="card" style="height: 25em;">
                 <img class="card-img-top" src="slike/img2.jpg" alt="cardimg">
                 <div class="card-body">
                     <h5 class="card-title">Lorem Ipsum</h5>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    <a href="#" class="btn btn-primary">Pročitaj više</a>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit maiores quos porro dicta culpa eius
+                        iusto... <a href="vesti.html">Detaljnije</a></p>
                 </div>
             </div>
-            <button type="button" class="btn-secondary"></button>
-
+            <div class="card" style="height: 25em;">
+                <img class="card-img-top" src="slike/img3.jpg" alt="cardimg">
+                <div class="card-body">
+                    <h5 class="card-title">Lorem Ipsum</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit maiores quos porro dicta culpa eius
+                        iusto... <a href="vesti.html">Detaljnije</a></p>
+                </div>
+            </div>
         </div>
-
-    </div>
+        <div class="row">
+            <div class="col-md-12">
+                <a href="vesti.html" class="btn btn-secondary my-4" role="button" style="width:15em">Više vesti</a>
+            </div>
+        </div>
+        <section class="edicijeindex">
+            <div id="marvel" class="overlay-inner py-5 my-2">
+                <div class="container py-lg-5 py-sm-4">
+                    <div>
+                        <a href="https://www.marvel.com/" class="btn btn-danger my-4 px-4"
+                            role="button">Marvel</a>
+                    </div>
+                </div>
+            </div>
+            <div id="dc" class="overlay-inner py-5 my-2">
+                <div class="container py-lg-5 py-sm-4">
+                    <div>
+                        <a href="https://www.dccomics.com/" class="btn btn-info my-4 px-4" role="button">DC Comics</a>
+                    </div>
+                </div>
+            </div>
+            <div id="bonelli" class="overlay-inner py-5 my-2">
+                <div class="container py-lg-5 py-sm-4">
+                    <div>
+                        <a href="https://www.sergiobonelli.it/" class="btn btn-secondary my-4 px-4"
+                            role="button">Sergio Bonelli Editore</a>
+                    </div>
+                </div>
+            </div>
+            <div id="makondo" class="overlay-inner py-5 my-2">
+                <div class="container py-lg-5 py-sm-4">
+                    <div>
+                        <a href="https://www.makondo.rs/" class="btn btn-warning my-4 px-4"
+                            role="button">Makondo</a>
+                    </div>
+                </div>
+            </div>
+            <div id="darkhorse" class="overlay-inner py-5 my-2">
+                <div class="container py-lg-5 py-sm-4">
+                    <div>
+                        <a href="https://www.darkhorse.com/" class="btn btn-dark my-4 px-4"
+                            role="button">Darkhorse</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
     <footer class="mainfooter" role="contentinfo">
         <div class="footer-middle">
@@ -166,7 +212,15 @@
             </div>
         </div>
     </footer>
-    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 
