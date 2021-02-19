@@ -1,5 +1,5 @@
 //Dodavanje artikala
- $(document).ready(function () {
+$(document).ready(function () {
     $(".btn").click(function () {
         var val = parseInt($('#group').find('.badge').text());
         if ($(this).hasClass('btn-danger')) {
@@ -25,13 +25,3 @@ $(document).ready(function () {
         return false;
     });
 });
-
-//Card deck slider
-(function($) {
-    "use strict";
-
-    // ručne carousel kontrole
-    $('.next').click(function(){ $('.carousel').carousel('next');return false; });
-    $('.prev').click(function(){ $('.carousel').carousel('prev');return false; });
-    
-})(jQuery);

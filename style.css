@@ -20,7 +20,7 @@ nav {
     font-size: 20px;
 }
 
-nav a {    
+nav a {
     text-decoration: none;
     padding: 20px 0;
     margin: 0 5px;
@@ -71,7 +71,7 @@ button {
     font-family: 'Lato', sans-serif;
 }
 
-/*Stripovi.html*/
+/*Stripovi*/
 
 #stripovi {
     padding-top: 1em;
@@ -110,44 +110,38 @@ button {
     margin-bottom: 10px;
 }
 
-/*Index.html*/
+/*Index button ispod vest*/
+.morenews {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
 
-.slideshow img {
+.morenews:hover{
+    color: white;
+}
+
+/*Index carousel*/
+
+.carousel-inner img {
     width: 100%;
     height: 100vh;
     padding-bottom: 1em;
 }
 
-.slideshow {
+.carousel-inner {
     padding-left: 0em;
     padding-right: 0em;
     margin-left: 0em;
     margin-right: 0em;
 }
 
-.slideshow-arrows li {
+.carousel-indicators li {
     visibility: hidden;
 }
 
-/*Carousel vesti*/
-
-.carousel-item-prev,
-.carousel-item-next,
-.carousel-item.active {
-    display:flex;
-}
-
-.card-img-top-250 {
-    max-height: 225px;
-    overflow:hidden;
-}
-
-.carousel-inner>.carousel-item.prev.left,
-.carousel-inner>.carousel-item.prev.right
-{
-    transition: all 5s ease;
-}
-
+/*Index Novosti*/
 
 .card-title {
     font-family: 'Fredoka One', cursive;
@@ -166,13 +160,49 @@ button {
     transition: 375ms;
 }
 
+#novostiid>h1{
+    font-family: 'Fredoka One', cursive;
+}
+
+/*Index Edicije*/
+
+#marvel{
+    background: url('slike/marvel.jpg') center center/cover no-repeat;
+    background-size: cover;
+}
+
+#bonelli{
+    background: url('slike/bonelli.jpg') center top/cover no-repeat;
+    background-size: cover;
+}
+
+#dc{
+    background: url('slike/DC.jpg') center center/cover no-repeat;
+    background-size: cover;
+}
+
+#darkhorse{
+    background: url('slike/darkhorse.png') center center/cover no-repeat;
+    background-size: cover;
+}
+
+#makondo{
+    background: url('slike/makondo.jpg') center center/cover no-repeat;
+    background-size: cover;
+}
+
+.overlay-inner{
+    background: rgba(0, 0, 0, 0.5);
+}
+
 .card-img-top {
     height: 15em;
 }
 
-.footer-middle {
-    margin-top: 0em;
-}
+/*Edicije slike*/
+
+
+
 
 /*Dugme "Vrh"*/
 
@@ -188,6 +218,10 @@ button {
 
 /*Footer*/
 
+.footer-middle {
+    margin-top: 0em;
+}
+
 .form {
     text-align: left;
     position: relative;
@@ -196,11 +230,11 @@ button {
     padding-left: 3em;
 }
 
-.socials, .contactform, .map{
+.socials, .contactform, .map {
     text-align: center;
 }
 
-.socials .contactform .map>h5{
+.socials .contactform .map>h5 {
     padding-bottom: 2em;
 }
 
@@ -256,13 +290,11 @@ ul.social-network {
     display: inline;
     margin-left: 0 !important;
     padding: 0;
-    
 }
 
 ul.social-network li {
     display: inline;
     margin: 0 5px;
-    
 }
 
 /* Footer social */
@@ -334,4 +366,3 @@ ul.social-network li {
 .social-network a {
     background-color: #F9F9F9;
 }
-
