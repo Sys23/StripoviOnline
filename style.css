@@ -166,7 +166,10 @@ button {
 
 /*Index Edicije*/
 
-.edicijeindex 
+.edicijeindex>h1{
+    font-family: 'Fredoka One', cursive;
+    padding: 0.5em;
+}
 
 #marvelind{
     background: url('slike/marvel.jpg') center center/cover no-repeat;
@@ -215,9 +218,13 @@ button {
     height: 38px;
     width: 60px;
     display: none;
-    margin-bottom: -10px;
+    font-size: 250px;
+
 }
 
+.fa-angle-up{
+    font-size: 250px;
+}
 /*Footer*/
 
 .footer-middle {
