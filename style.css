@@ -166,27 +166,29 @@ button {
 
 /*Index Edicije*/
 
-#marvel{
+.edicijeindex 
+
+#marvelind{
     background: url('slike/marvel.jpg') center center/cover no-repeat;
     background-size: cover;
 }
 
-#bonelli{
+#bonelliind{
     background: url('slike/bonelli.jpg') center top/cover no-repeat;
     background-size: cover;
 }
 
-#dc{
+#dcind{
     background: url('slike/DC.jpg') center center/cover no-repeat;
     background-size: cover;
 }
 
-#darkhorse{
+#darkhorseind{
     background: url('slike/darkhorse.png') center center/cover no-repeat;
     background-size: cover;
 }
 
-#makondo{
+#makondoind{
     background: url('slike/makondo.jpg') center center/cover no-repeat;
     background-size: cover;
 }
