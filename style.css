@@ -166,27 +166,32 @@ button {
 
 /*Index Edicije*/
 
-#marvel{
+.edicijeindex>h1{
+    font-family: 'Fredoka One', cursive;
+    padding: 0.5em;
+}
+
+#marvelind{
     background: url('slike/marvel.jpg') center center/cover no-repeat;
     background-size: cover;
 }
 
-#bonelli{
+#bonelliind{
     background: url('slike/bonelli.jpg') center top/cover no-repeat;
     background-size: cover;
 }
 
-#dc{
+#dcind{
     background: url('slike/DC.jpg') center center/cover no-repeat;
     background-size: cover;
 }
 
-#darkhorse{
+#darkhorseind{
     background: url('slike/darkhorse.png') center center/cover no-repeat;
     background-size: cover;
 }
 
-#makondo{
+#makondoind{
     background: url('slike/makondo.jpg') center center/cover no-repeat;
     background-size: cover;
 }
@@ -213,9 +218,13 @@ button {
     height: 38px;
     width: 60px;
     display: none;
-    margin-bottom: -10px;
+    font-size: 250px;
+
 }
 
+.fa-angle-up{
+    font-size: 250px;
+}
 /*Footer*/
 
 .footer-middle {
