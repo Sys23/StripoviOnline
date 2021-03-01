@@ -10,18 +10,21 @@ $(document).ready(function () {
     });
 });
 //Nazad na vrh
-$(document).ready(function () {
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
+$(document).ready(function(){
+
+    //Check to see if the window is top if not then display button
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 800) {
             $('#back-to-top').fadeIn();
         } else {
             $('#back-to-top').fadeOut();
         }
     });
-    $('#back-to-top').click(function () {
-        $('body,html').animate({
-            scrollTop: 0
-        }, 400);
-        return false;
-    });
+
+      // scroll to top
+      document.querySelector('.back-to-top').addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector('body').scrollIntoView({ behavior: 'smooth' });
+      });
+
 });
